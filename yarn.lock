@@ -2003,6 +2003,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prettier@npm:^3":
+  version: 3.0.0
+  resolution: "@types/prettier@npm:3.0.0"
+  dependencies:
+    prettier: "npm:*"
+  checksum: a9540261690cae3377c3da8a1d4fe2d8fd177abe5e499fd1c44b9a7fc5de26d5ea9c34af9c80278bf1861a0ddb47cf911452043b2a9a7f08373df303c05ecb23
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -4029,6 +4038,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:*, prettier@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "prettier@npm:3.0.1"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: b0042eba0138b37bfffb9a0fee5ae3d5bf2ab34a102329bd7e8d7388fd937c290820add1e2280bae8e3117664c755054fa669bd225ce5a100aeef86741830604
+  languageName: node
+  linkType: hard
+
 "promise-retry@npm:^2.0.1":
   version: 2.0.1
   resolution: "promise-retry@npm:2.0.1"
@@ -4455,6 +4473,7 @@ __metadata:
     "@chakra-ui/react": "npm:^2.8.0"
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
+    "@types/prettier": "npm:^3"
     "@types/react": "npm:^18.2.15"
     "@types/react-dom": "npm:^18.2.7"
     "@typescript-eslint/eslint-plugin": "npm:^6.0.0"
@@ -4464,6 +4483,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.3"
     framer-motion: "npm:^10.15.1"
+    prettier: "npm:^3.0.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-router-typesafe-routes: "npm:^1.2.1"
