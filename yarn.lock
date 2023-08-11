@@ -4163,6 +4163,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-typesafe-routes@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "react-router-typesafe-routes@npm:1.2.1"
+  peerDependencies:
+    react: ">=16.8"
+    react-router-dom: ^6.7.0
+    react-router-native: ^6.7.0
+    yup: ^1.0.0
+    zod: ^3.0.0
+  peerDependenciesMeta:
+    react-router-dom:
+      optional: true
+    react-router-native:
+      optional: true
+    yup:
+      optional: true
+    zod:
+      optional: true
+  checksum: 08e0d9683e3549ce42b23d0da189a88659b6a62570733bd3dbe67d40dc0b456be1d4ab369913275c548f986774ed98825643e4ec0d950ee2155fc1d3ae4d99da
+  languageName: node
+  linkType: hard
+
 "react-style-singleton@npm:^2.2.1":
   version: 2.2.1
   resolution: "react-style-singleton@npm:2.2.1"
@@ -4444,6 +4466,7 @@ __metadata:
     framer-motion: "npm:^10.15.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-router-typesafe-routes: "npm:^1.2.1"
     typescript: "npm:^5.0.2"
     vite: "npm:^4.4.5"
   languageName: unknown
