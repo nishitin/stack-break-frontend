@@ -5,6 +5,18 @@ __metadata:
   version: 7
   cacheKey: 9
 
+"@0no-co/graphql.web@npm:^1.0.1":
+  version: 1.0.4
+  resolution: "@0no-co/graphql.web@npm:1.0.4"
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+  peerDependenciesMeta:
+    graphql:
+      optional: true
+  checksum: c93d50fd43fbfaa7b162852479b74c46755c99110417494394694cc1fe456581d04f6d059d71b310d8e5000740386a1b7b8de13e0edc5a8486bef97a7a66e4e6
+  languageName: node
+  linkType: hard
+
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
   version: 1.2.6
   resolution: "@aashutoshrathi/word-wrap@npm:1.2.6"
@@ -1966,6 +1978,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@remix-run/router@npm:1.8.0"
+  checksum: b32f655175e5d55ec6884b635a314f630699b2211ae87ca7c67dc56b379ff0affa13946c62a2f0e6b16b9aa4842ca40fe85190aa2576f57b0a0af6e0b119199e
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -2173,6 +2192,16 @@ __metadata:
     "@typescript-eslint/types": "npm:6.3.0"
     eslint-visitor-keys: "npm:^3.4.1"
   checksum: a4e1d319d5daa0be9fdaf5f77fa6c8ce7474335a18243ec062355e31703ca59f37c3d17108eefd4564a45295d5455a3801f77adc609e6da8836c08bcaddc92a2
+  languageName: node
+  linkType: hard
+
+"@urql/core@npm:^4.1.0":
+  version: 4.1.1
+  resolution: "@urql/core@npm:4.1.1"
+  dependencies:
+    "@0no-co/graphql.web": "npm:^1.0.1"
+    wonka: "npm:^6.3.2"
+  checksum: 1de1c20f57ba10f6ac8b512634c52be7f8b29ba3f193aaf885776e3caa0a69920e8ac7e8dc5417f1f5f95235d3f6712caec0ee5075d03eb676a0e79014e6b07b
   languageName: node
   linkType: hard
 
@@ -4181,6 +4210,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.15.0":
+  version: 6.15.0
+  resolution: "react-router-dom@npm:6.15.0"
+  dependencies:
+    "@remix-run/router": "npm:1.8.0"
+    react-router: "npm:6.15.0"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: a2bd888334ab1da5ecce51cb9afa6ccbd7cb3550865d3743ce7ab9c0a319f02f9b82c69769b2ab2eaae564bc41a3a213cabe62963cc09c98791aefb43c25a761
+  languageName: node
+  linkType: hard
+
 "react-router-typesafe-routes@npm:^1.2.1":
   version: 1.2.1
   resolution: "react-router-typesafe-routes@npm:1.2.1"
@@ -4200,6 +4242,17 @@ __metadata:
     zod:
       optional: true
   checksum: 08e0d9683e3549ce42b23d0da189a88659b6a62570733bd3dbe67d40dc0b456be1d4ab369913275c548f986774ed98825643e4ec0d950ee2155fc1d3ae4d99da
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.15.0":
+  version: 6.15.0
+  resolution: "react-router@npm:6.15.0"
+  dependencies:
+    "@remix-run/router": "npm:1.8.0"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: fdfacf798ee3d2927380000e70c84e6176e6d19f538a611d562ee0006726de213853d78455a5a83b0179ace6128ba26e68ca04e98c9f5462889e03a6275a3879
   languageName: node
   linkType: hard
 
@@ -4486,8 +4539,10 @@ __metadata:
     prettier: "npm:^3.0.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:^6.15.0"
     react-router-typesafe-routes: "npm:^1.2.1"
     typescript: "npm:^5.0.2"
+    urql: "npm:^4.0.5"
     vite: "npm:^4.4.5"
   languageName: unknown
   linkType: soft
@@ -4731,6 +4786,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"urql@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "urql@npm:4.0.5"
+  dependencies:
+    "@urql/core": "npm:^4.1.0"
+    wonka: "npm:^6.3.2"
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: befbbd0b80c243fafed3348fac62da6994fa1e5b0285c03be12a80f994771a5d34c412d6d1fef9d925d844607e51800a077369976ef6a162520c0a10bf5ecdd3
+  languageName: node
+  linkType: hard
+
 "use-callback-ref@npm:^1.3.0":
   version: 1.3.0
   resolution: "use-callback-ref@npm:1.3.0"
@@ -4826,6 +4893,13 @@ __metadata:
   dependencies:
     string-width: "npm:^1.0.2 || 2 || 3 || 4"
   checksum: 39915f81cdc6cee1f54bfd7672619cc6d0bd558089f968ea7831324cd4b5ed00e78e710a64f05e5d75ed7880e45eef97295907f68d5aabb9d2899436c917b275
+  languageName: node
+  linkType: hard
+
+"wonka@npm:^6.3.2":
+  version: 6.3.4
+  resolution: "wonka@npm:6.3.4"
+  checksum: 20b126695a6365de495699311e333721463c5e063d943b52f30659459346976b9cfe3184326b002f26ff91a1810cbc5c293ecc342ed0b0603ade0e6c22eadd11
   languageName: node
   linkType: hard
 
