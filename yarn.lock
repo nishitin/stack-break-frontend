@@ -3095,9 +3095,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^10.15.1":
-  version: 10.15.1
-  resolution: "framer-motion@npm:10.15.1"
+"framer-motion@npm:^10.15.2":
+  version: 10.15.2
+  resolution: "framer-motion@npm:10.15.2"
   dependencies:
     "@emotion/is-prop-valid": "npm:^0.8.2"
     tslib: "npm:^2.4.0"
@@ -3112,7 +3112,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 6aac1c530f65d4f91dd66678e036f32ae9af08b7b46ab7ffc9cd31dd50808fe04661382ac8c04143ea6e29a3769e9faed8910f18ccc9d81fea3a431aaaa94a0e
+  checksum: 630b575886b06e2977aeb07f9f8cd9724930cdef564a40bbe90a106dcdfcf26a67a11fcf60dd333f615d58a115ca108fe91c777db125910ce7dc92d7bceb056e
   languageName: node
   linkType: hard
 
@@ -4535,7 +4535,7 @@ __metadata:
     eslint: "npm:^8.45.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.3"
-    framer-motion: "npm:^10.15.1"
+    framer-motion: "npm:^10.15.2"
     prettier: "npm:^3.0.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
